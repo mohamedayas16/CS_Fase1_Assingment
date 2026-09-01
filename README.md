@@ -54,3 +54,20 @@ If you use any part of this repository or want to reference this analysis, pleas
   howpublished = {\url{https://github.com/mohamedayas16/CS_week2_assingment}}
 }
 ```
+This is the change that needs to be done in the readme file.
+## Repository Structure
+
+```text
+├── data/
+│   ├── raw/
+│   │   ├── cv/            # Raw Cyclic Voltammetry scans (.cor)
+│   │   ├── eis/           # Raw Electrochemical Impedance data (.cor / .dta)
+│   │   └── mott_schottky/ # Raw Mott-Schottky capacitance scans (.cor)
+│   └── processed/         # Parsed CSVs and fitted parameters (e.g., flat-band potential)
+├── scripts/               # Python/MATLAB scripts for data extraction and plotting
+├── figures/               # Generated publication-quality figures (.pdf / .png)
+├── chapters/              # LaTeX source files for thesis chapters
+├── .gitignore             # Ignored temporary files, caches, and LaTeX logs
+├── LICENSE.md             # Dual license terms (CC BY 4.0 for prose, MIT for code)
+└── README.md              # Project overview and reproduction instructions
+```
