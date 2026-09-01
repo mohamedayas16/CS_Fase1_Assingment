@@ -1,14 +1,59 @@
-# Python temporary and compiled files
-__pycache__/
-*.pyc
+# ==========================================
+# 1. Electrochemical Data (CV, EIS, Mott-Schottky)
+# ==========================================
+# Instrument autosaves, temporary logs, and crash recovery
+*.cor.bak
+*.bak
+*.tmp
+*.log
+*.err
 
-# LaTeX compiled outputs and logs
+# Gamry / PAR / BioLogic temporary files
+*.DTA.bak
+*.mpt.bak
+*.mps.bak
+
+# Fitting software workspaces (ZView, EC-Lab, Origin)
+# (Keep final fit results/exports, ignore binary autosaves/locks)
+*.zfit
+*.sav
+*.opj.bak
+*.opju.bak
+~$*.xlsx
+~$*.xls
+~$*.csv
+
+# ==========================================
+# 2. Python / Jupyter Analysis Caches
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+
+# ==========================================
+# 3. LaTeX Build Artifacts
+# ==========================================
 *.aux
+*.bbl
+*.blg
 *.log
 *.out
-*.pdf
 *.toc
+*.lof
+*.lot
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.synctex(busy)
 
-# Large research datasets that shouldn't be tracked
+# ==========================================
+# 4. OS System Files
+# ==========================================
+.DS_Store
+Thumbs.db
+# ===========================================
+# 5. Large research datasets that shouldn't be tracked
+# ===========================================
 *.csv
 *.dat
