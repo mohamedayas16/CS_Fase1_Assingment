@@ -1,3 +1,5 @@
+[![.github/workflows/latex.yml](https://github.com/mohamedayas16/CS_Fase1_Assingment/actions/workflows/latex.yml/badge.svg)](https://github.com/mohamedayas16/CS_Fase1_Assingment/actions/workflows/latex.yml)
+
 # Semester II - Computational Science Project
 
 This project contains computational analysis scripts and documentation for the course assignments which include the actual datas and reports in lab at FCFM, UANL.
