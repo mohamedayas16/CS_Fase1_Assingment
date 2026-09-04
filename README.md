@@ -71,3 +71,14 @@ This is the change that needs to be done in the readme file.
 ├── LICENSE.md             # Dual license terms (CC BY 4.0 for prose, MIT for code)
 └── README.md              # Project overview and reproduction instructions
 ```
+## License
+
+This project is licensed under the **GNU General Public License v3.0 (GPLv3)**. See the [LICENSE](LICENSE) file for the full text.
+
+### Why GPLv3?
+
+This repository contains research code and analytical tools developed as part of my thesis. The GPLv3 was chosen to support **open science and scientific reproducibility**:
+
+* **Guaranteed Open Access:** Anyone is free to use, modify, and distribute this codebase, provided that any derivative works or distributed modifications remain licensed under the GPLv3.
+* **Community Contribution:** This prevents scientific tooling developed through public/institutional research from being absorbed into closed-source proprietary systems without returning improvements to the research community.
+* **Patent Protection:** GPLv3 includes an explicit grant of patent rights from contributors to users, protecting downstream researchers from unexpected patent litigation.
